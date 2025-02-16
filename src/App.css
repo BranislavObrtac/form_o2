@@ -1,6 +1,15 @@
 /* Cannot use commercial On Air Var font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+  --blue-500: #0050FF;
+  --red-600: #DC2828;
+  --gray-300: #C9C9CE;
+  --gray-500: #8C8C9A;
+  --gray-950: #2C2C31;
+  --yellow-700: #A56315;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +19,11 @@
 html, body {
   height: 100%;
   font-family: 'Roboto', Arial, sans-serif;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
