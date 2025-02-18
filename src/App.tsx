@@ -1,10 +1,11 @@
-import "./App.css";
 import Form from "./components/form/Form";
+import './App.css';
 
 function App() {
 
   return (
-    <div>
+    <div className="app-wrapper">
+      <h1>Formulár</h1>
       <Form />
     </div>
   );
